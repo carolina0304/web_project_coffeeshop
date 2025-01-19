@@ -61,9 +61,12 @@
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
-  letter-spacing: 1px;
+  letter-spacing: -1px;
   max-width: 709px;
-  margin-left: 80px;
+  left: 80px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .header__spant-acent {
@@ -192,6 +195,7 @@
   line-height: 30px;
   margin-top: 24px;
   align-items: center;
+  color: #ffffff;
 }
 
 .recipes__iframe {
