@@ -168,10 +168,34 @@
 
 .recipes__videos {
   display: flex;
-  width: 480px;
+  width: 1000px;
   height: 273px;
-  margin-top: 80px;
+  margin: 80px auto 215px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .recipes__video-item {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+  width: 100%;
+  border: 0;
+}
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 24px;
+  align-items: center;
+}
+
+.recipes__iframe {
+  width: 450px;
+  height: 200px;
+  border: 0;
 }
